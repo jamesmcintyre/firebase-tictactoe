@@ -16,7 +16,6 @@ function init() {
 
 var ref = new Firebase('https://jmmtic.firebaseio.com/');
 var allPlayersRef = ref.child('players');
-var userUniqueRef = moment().format('MMDDYYYY-hhmmssSS');
 var syncGameState = ref.child('gamestate');
 
 
