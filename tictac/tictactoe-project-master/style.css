@@ -1,0 +1,50 @@
+html, body, .container {
+  height: 100%;
+}
+
+.title {
+  background-color: white;
+  margin-bottom: 0px;
+  padding-top: 3vh;
+  padding-bottom: 7vh;
+  color: rgb(243, 243, 243);
+  text-shadow: 4px 4px grey;
+  font-weight: 900;
+}
+
+
+.holder {
+  height: 33.3%;
+  padding: 0px;
+  margin: opx;
+  background-color: #F3F3F3;
+  border: 10px solid #FFFFFF;
+  border-radius: 15px;
+}
+
+.selected {
+  background-color: #e2e2e2;
+}
+
+.tile {
+  height: 100%;
+  text-align: center;
+  font-size: 5vw;
+  color: #7D7D7D;
+  padding-top: 3vh;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.win {
+  background-color: #BAF3BA;
+}
+
+.board {
+  height: 100%;
+}
+
+.board-contain {
+    height: 100%;
+    padding-bottom: 23vh;
+}
